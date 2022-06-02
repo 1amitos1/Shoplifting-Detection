@@ -25,6 +25,23 @@ SL -Shoplifting detection Provides real-time alerts for the SMB market retailers
 
 ## Project highlights
 ---
+
+
+Built unique databases for each product, specifically to serve the purpose of a
+specific problem, thus ensuring a quality solution.
+
+● Our AI algorithm size is significantly smaller, about 98% smaller than other
+algorithms in the HAR domain.
+
+● Efficient and robust, with cutting-edge DL models to produce state-of-the-art
+results in HAR.
+
+● Extremely low inference time [millisecond inference time], due to the low
+computing power required in run time for our AI algorithm to run.
+
+
+
+
 -	Creating a new novel dataset ADS-dataset that contain worldwide videos
 clips of abuse capture by surveillance cameras in the real-world scenes 
 
@@ -84,6 +101,7 @@ help build a pooling mechanism.
 - Fully-connected layers generate output.
 
  <img src="https://user-images.githubusercontent.com/34807427/117047169-3c753000-ad1a-11eb-93a5-7825120596ca.png" width="550" height="400">
+![FLOW_GATE_SLOW_FAST](https://user-images.githubusercontent.com/34807427/171699014-2f4c0d51-662f-42fc-b2b9-4c8b9e2b1d43.png)
 
 
 
