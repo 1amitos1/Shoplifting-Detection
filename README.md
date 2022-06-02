@@ -46,7 +46,6 @@ Build and train deep learning models(according to a standard ML approach) to aut
 - Development
 Build prototype system ADS(Abuse detection system) for deploying models and test them in a real-time environment
 
-### Our Main goal - provide an automated solution for detecting cases of abuse of the elderly.
 
 ## Data collection
 ---
