@@ -3,6 +3,20 @@
 #### Project creators
 - Amit Hayun [amitos684@gmail.com](amitos684@gmail.com)
 
+Real-time analysis of each camera has become an exhaustive task due to human limitations. The
+primary human limitation is the visual Focus of attention. The human gaze can only concentrate on
+one specific point at once.
+Although there are large screens and high-resolution cameras, a person can only regard a small
+segment of the image at a time. Thieves are well aware that watching all the video footage is too
+demanding for "SMB" such as retailers\ grocery\convenience stores, which makes the technology
+lose its role as a deterrent. On top in the SMB domain to constantly monitor video screens is simply
+not possible, there are also many areas that are not covered by CCTV, but once again retailers are
+reluctant to add more cameras when they don’t have the capacity to watch all the footage.
+VqID SL solution is optimized for SMB markets such as - convenience stores, small supermarkets,
+and gadget stores. VqID SL provides SMB with a comprehensive solution for monitoring and
+detecting unusual events in real-time without the need for human supervision, VqID SL will alert on
+a variety of scenarios. The following example describes the chain of events in the case of a
+shoplifting incident, where the customer steals an alcoholic beverage and hides it in a bag.
                     
 
 Provide a Deep Learning-Based real-time solution for nursing homes and hospitals for detecting cases of abuse in the elderly population by analyzing security camera frames and performing real-time forecasting using three machine learning models YOLO, DeepSort, ADS
@@ -101,7 +115,9 @@ help build a pooling mechanism.
 - Fully-connected layers generate output.
 
  <img src="https://user-images.githubusercontent.com/34807427/117047169-3c753000-ad1a-11eb-93a5-7825120596ca.png" width="550" height="400">
-![FLOW_GATE_SLOW_FAST](https://user-images.githubusercontent.com/34807427/171699014-2f4c0d51-662f-42fc-b2b9-4c8b9e2b1d43.png)
+ 
+ <img src="https://user-images.githubusercontent.com/34807427/171699014-2f4c0d51-662f-42fc-b2b9-4c8b9e2b1d43.png" width="550" height="700">
+
 
 
 
