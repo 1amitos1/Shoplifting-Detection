@@ -153,10 +153,14 @@ help build a pooling mechanism.
 
 
 
+## Model training && Evaluation
+![צילום מסך 2022-06-04 121433](https://user-images.githubusercontent.com/34807427/171992905-bed95bdc-204f-40ef-9df2-825e8288b82e.png)
+Examination of the model on our dataset we received an accuracy of 85.77%
+Compared to the SlowFast model we got the following results 76%
+![ee](https://user-images.githubusercontent.com/34807427/171993248-347f44dd-44fb-4402-8b02-30a527afd2c1.png)
 
 
-
-
+## Input-Output
 https://user-images.githubusercontent.com/34807427/171149238-3cabeffb-1087-4748-b7ca-1927cd4cf6f8.mp4
 
 
