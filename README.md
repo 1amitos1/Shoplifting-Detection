@@ -2,6 +2,9 @@
 ---
 #### Project creators
 - Amit Hayun [amitos684@gmail.com](amitos684@gmail.com)
+- Amit Hayun [Linkedin](https://www.linkedin.com/in/amithayun82797614a/)
+
+
 
 SL -Shoplifting detection Provides real-time alerts for the SMB market retailers, to monitor and report customer behavior when shoplifting occur, by analyzing security camera frames and performing real-time forecasting using cutting edge lightweight deep neural  network 3D-CNN architecture
 
@@ -21,7 +24,7 @@ SL -Shoplifting detection Provides real-time alerts for the SMB market retailers
 
 ## Project highlights
 ---
-- A new novel approach in human action recognition (HAR) that combine the advantage of deep neural network 3D-CNN in learning complex features and patterns, and lightweight models architecture suitable for real-time interference and edge devices deployment.
+- A new novel approach in human action recognition (HAR) that combine the advantage of deep neural network **3D-CNN** in learning complex features and patterns, and lightweight models architecture suitable for real-time interference and edge devices deployment.
 - SL models are built using a unique dataset designed explicitly for convenience stores and supermarkets containing row videos of theft events performed by actors
 - model designed for use in real-time environments using surveillance
   cameras and deliver real-time alerts on theft incidents occurring in the store.
@@ -37,9 +40,9 @@ SL -Shoplifting detection Provides real-time alerts for the SMB market retailers
 - Artificial intelligence and recent innovations in deep learning (DL) and neural networks took great leaps in recent years. One of the most effective types of AI is computer vision. Computer vision is the field of computer science that focuses on replicating parts of the complexity of the human vision and enabling computers to identify and process objects in images in a similar way has humans accomplish.
 One of the most challenging tasks in computer vision is Human Action Recognition (HAR) which aims to understand human behavior and assign a label to each action.
 
-- A common approach in the HAR domain, is to treat video frames as images and apply 2D-CNN (Conventional Neural Network) to recognize the action in every single frame from the video stream.One of the main deficiencies of this approach is that each video frame forms only a tiny part of the video's story, such an approach will be using incomplete information and could, therefore, easily wrongly classified, especially if there are fine-grind distinctions. In the HAR domain a single frame analysis may interoperate as different activity from the realty, when there are different shapes (e.g., person is doing pushups, or he fall down). This is termed interclass similarity, which is a common phenomenon in HAR.
+- A common approach in the HAR domain, is to treat video frames as images and apply **2D-CNN** (Conventional Neural Network) to recognize the action in every single frame from the video stream.One of the main deficiencies of this approach is that each video frame forms only a tiny part of the video's story, such an approach will be using incomplete information and could, therefore, easily wrongly classified, especially if there are fine-grind distinctions. In the HAR domain a single frame analysis may interoperate as different activity from the realty, when there are different shapes (e.g., person is doing pushups, or he fall down). This is termed interclass similarity, which is a common phenomenon in HAR.
 
-- the solution for interclass similarity problem is to extend the2D- CNN form 2D to 3D. As such the network has access not only the visual appearance present in each video frame, but also the temporal evaluation across consecutive frames. the training of 3D CNN is very computationally expensive, and the model size also has quadratic growth compared to 2D CNN. The general trend has been to make deeper and more complicated network to achieve higher accuracy. however, these advances to improve accuracy are not necessarily making networks more efficient with respect to size and speed. Despite the effectiveness of 3D-CNN volumetric models, most of the current architectures requires a huge computational power due to the convolution operation and the large number of parameters. Because of the volumetric nature of the convolutional filters to extract the features which increase the computational complexity cubically, which limits the usage of 3D-CNN volumetric in DL models for real time inference tasks.
+- the solution for interclass similarity problem is to extend the2D- CNN form 2D to 3D. As such the network has access not only the visual appearance present in each video frame, but also the temporal evaluation across consecutive frames. the training of **3D CNN** is very computationally expensive, and the model size also has quadratic growth compared to 2D CNN. The general trend has been to make deeper and more complicated network to achieve higher accuracy. however, these advances to improve accuracy are not necessarily making networks more efficient with respect to size and speed. Despite the effectiveness of **3D-CNN** volumetric models, most of the current architectures requires a huge computational power due to the convolution operation and the large number of parameters. Because of the volumetric nature of the convolutional filters to extract the features which increase the computational complexity cubically, which limits the usage of 3D-CNN volumetric in DL models for real time inference tasks.
 
 - Applications that relay on recognition task to be carried in a timely fashion need to understand the computation limitation of the used platform.
 This has special importance when we desire to identify an incident that consists of several complex action, in which the time is critical element, and the observed behavior are complex actions that require prolonged and consistent observation to decide whether an incident occurred or not. Accurate and distinctive algorithms need to be designed to solve this problem.
@@ -48,15 +51,39 @@ This has special importance when we desire to identify an incident that consists
 
 
 ### Problem statement
-Real-time analysis of each camera has become an exhaustive task due to human limitations. The primary human limitation is the visual focus of attention. The human gaze can only concentrate on one specific point at once. Although there are large screens and high-resolution cameras, a person can only regard a small segment of the image at a time. Thieves are well aware that watching all the video footage is too demanding for "SMBs" such as retailers\ grocery\convenience stores, which makes the technology lose its role as a deterrent. Shoplifting is conservatively estimated to account for 30% – 40% of total retail shrink/losses. (Universities of Florida and Hayes International surveys)
+Real-time analysis of each camera has become an exhaustive task due to human limitations. The primary human limitation is the visual focus of attention. The human gaze can only concentrate on one specific point at once. Although there are large screens and high-resolution cameras, a person can only regard a small segment of the image at a time. Thieves are well aware that watching all the video footage is too demanding for "SMBs" such as retailers\ grocery\convenience stores, which makes the technology lose its role as a deterrent.
+
+ - **Shoplifting is conservatively estimated to account for 30% – 40% of total retail shrink/losses.**
+   + **(Universities of Florida and Hayes International surveys)**
+ - **The average shoplifting case value in 2021 was $310.11, reflecting an increase of 13.0% from 2020**
+ 
+#### Project goals:
+provides a comprehensive solution for monitoring and detecting unusual events in real-time without the need for human supervision, the system will alert on
+a variety of scenarios. **The following example describes the chain of events in the case of a
+shoplifting incident, where the customer steals an alcoholic beverage and hides it in a bag**.
+
+![sl_proecess_1](https://user-images.githubusercontent.com/34807427/171988455-913c721b-92ae-4f61-91fe-32eee77b5989.png)
 
 
+When one of these actions will detected by our AI model, we will provide the store owner with an
+immediate alert.
 
-- Research 
-Build and train deep learning models(according to a standard ML approach) to automatically identify abuse event capture by security camera
+The system monitors basic customer activities in the store, activities that we will define as pre-
+crime such as:
+- Taking an item off the shelf.
+- Returning an item to the shelf.
+- Examining an item.
+These activities are routine customer procedures in the store.
 
-- Development
-Build prototype system ADS(Abuse detection system) for deploying models and test them in a real-time environment
+
+And activities that we will define as crime lapse in which our system will monitor and report in real-
+time on a case of theft in the store.
+crime lapse activities such as:
+- Concealing an item in clothes.
+- Concealing an item in a bag.
+
+**When one of these actions will be detected by our AI model, we will provide the store owner with an
+immediate alert**.
 
 
 ## Data collection
@@ -76,13 +103,38 @@ We work according to a machine learning methodology
 6. create more videos by using 5 data argumentation techniques
 7. split the data to Train, Val, Test as shown in table2
 
-- Method and DB expleind -[method and DB expleind.pdf](https://github.com/1amitos1/AbuseDetectionSystem_demo/files/6423235/method.and.db.expleind.pdf)
 
  <img src="https://user-images.githubusercontent.com/34807427/117050368-f15d1c00-ad1d-11eb-85eb-d21343f74e55.png" width="300" height="300">
 
 
 ## Model architecture
 ---
+##### Network name:
+**Gate_Flow_SlowFast**
+
+#### Model description:
+
+A model that combines the Tow gate stream architecture and the SlowFastNetwork architecture.
+The idea is to simulate the human brain in the aspect of visual information processing and split the data into 2 channels.
+
+- **Slow**
+ Simulates a slow information processing process in the brain - the goal of this channel is to teach the network as deep characteristics as possible.
+Receives as input - 4 Frames
+
+- **Fast**
+Simulates a fast information processing process in the brain - the purpose of this channel is to teach the network local properties temporal feature
+Receives as input - 64 Frames and within this channel, there are 2 additional sub-channels of **RGB, Optical Flow**
+Receives as input - 64 Frames
+In the Fast-RGB channel, I used a Lateral connection to connect properties to the Slow channel
+
+For an in-depth understanding of the topic, I suggest reading the original paper 
+[SlowFast Networks for Video Recognition](https://scontent.ftlv7-1.fna.fbcdn.net/v/t39.8562-6/240838925_377595027406519_956785818926520821_n.pdf?_nc_cat=103&ccb=1-7&_nc_sid=ad8a9d&_nc_ohc=7as3khAgb1QAX9fsxcb&_nc_ht=scontent.ftlv7-1.fna&oh=00_AT9RK1GZmt8SrepxHyqL1c8iyQxtaNOW3GXccaw51aQyww&oe=62A0E274)
+
+| Total params        |Trainable params   | Non-trainable  |
+| ------------- |:-------------:| -----:|
+| 500,386      | 500,386 | 0 |
+
+
 The model architecture is based on mobileNet SSD.
 And the highlight of this model is utilizing
 a branch of the optical flow channel to 
