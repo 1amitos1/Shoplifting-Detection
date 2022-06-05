@@ -86,14 +86,24 @@ crime lapse activities such as:
 immediate alert**.
 
 
-## Data collection
+## Data 
 ---
-Data collection
-In order to train deep learning models, the first step is data collection
-We build data collection pipe and gather abuse video from the web
-we collect 842 video clips after the filtering process
+#### Data collection
+In order to train deep learning models, the first step is data collection raw video data collected from security cameras from two supermarkets, the theft was
+committed by actors in several different theft scenarios inside the store
+
+Scenarios tested:
+- Product taking/returning/ examination of the product
+- Inserting an item in a pocket / coat / bag
 
 
+All the cases of theft were examined in a variety of shooting angles, and by rotation of actors and clothing.
+
+we collect 4000 video clips after the filtering process.
+A link to the dataset sample is provided for the entire Dataset, send email to amitos684@gmail.com 
+
+
+#### filtering process
 We work according to a machine learning methodology
 1. search abuse video links online
 2. download the links
@@ -101,20 +111,17 @@ We work according to a machine learning methodology
 4. cut the video into 5-sec clips
 5. manual extracting from each video 5sec clips [3,4 clips for each video]
 6. create more videos by using 5 data argumentation techniques
-7. split the data to Train, Val, Test as shown in table2
-
 
  <img src="https://user-images.githubusercontent.com/34807427/117050368-f15d1c00-ad1d-11eb-85eb-d21343f74e55.png" width="300" height="300">
 
 
 ## Model architecture
 ---
-##### Network name:
-**Gate_Flow_SlowFast**
+##### Network name: **Gate_Flow_SlowFast**
 
 #### Model description:
-
-A model that combines the Tow gate stream architecture and the SlowFastNetwork architecture.
+ Inspired by **SlowFast Networks for Video Recognition** and the **mobileNet-SSD** architecture.
+ this Model design combines the Tow gate stream architecture and the SlowFastNetwork architecture.
 The idea is to simulate the human brain in the aspect of visual information processing and split the data into 2 channels.
 
 - **Slow**
@@ -125,20 +132,22 @@ Receives as input - 4 Frames
 Simulates a fast information processing process in the brain - the purpose of this channel is to teach the network local properties temporal feature
 Receives as input - 64 Frames and within this channel, there are 2 additional sub-channels of **RGB, Optical Flow**
 Receives as input - 64 Frames
-In the Fast-RGB channel, I used a Lateral connection to connect properties to the Slow channel
+In the Fast-RGB channel, a Lateral connection used to connect properties to the Slow channel 
+
 
 For an in-depth understanding of the topic, I suggest reading the original paper 
 [SlowFast Networks for Video Recognition](https://scontent.ftlv7-1.fna.fbcdn.net/v/t39.8562-6/240838925_377595027406519_956785818926520821_n.pdf?_nc_cat=103&ccb=1-7&_nc_sid=ad8a9d&_nc_ohc=7as3khAgb1QAX9fsxcb&_nc_ht=scontent.ftlv7-1.fna&oh=00_AT9RK1GZmt8SrepxHyqL1c8iyQxtaNOW3GXccaw51aQyww&oe=62A0E274)
+
+
+
 
 | Total params        |Trainable params   | Non-trainable  |
 | ------------- |:-------------:| -----:|
 | 500,386      | 500,386 | 0 |
 
-
 The model architecture is based on mobileNet SSD.
-And the highlight of this model is utilizing
-a branch of the optical flow channel to 
-help build a pooling mechanism.
+And the highlight of this model is utilizing  tow path
+Slow and Fast, and for each path, there are tow channel one for optical flow and one for RGB channel.
 
 - Conv3D split into two channels -  RGB frame and Optical flows as shown in the figure below.
 - Relu activation is adopted at the end of the RGB channel. 
@@ -154,10 +163,13 @@ help build a pooling mechanism.
 
 
 ## Model training && Evaluation
+
 ![צילום מסך 2022-06-04 121433](https://user-images.githubusercontent.com/34807427/171992905-bed95bdc-204f-40ef-9df2-825e8288b82e.png)
 Examination of the model on our dataset we received an accuracy of 85.77%
 Compared to the SlowFast model we got the following results 76%
 ![ee](https://user-images.githubusercontent.com/34807427/171993248-347f44dd-44fb-4402-8b02-30a527afd2c1.png)
+
+
 
 
 ## Input-Output
