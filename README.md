@@ -133,12 +133,17 @@ Simulates a fast information processing process in the brain - the purpose of th
 Receives as input - 64 Frames and within this channel, there are 2 additional sub-channels of **RGB, Optical Flow**
 Receives as input - 64 Frames
 In the Fast-RGB channel, a Lateral connection used to connect properties to the Slow channel 
+![Slow_fast](https://user-images.githubusercontent.com/34807427/172115316-cd57d6c7-4d2e-45a0-8f8e-a6373c6ddb31.png)
+
+
 
 
 For an in-depth understanding of the topic, I suggest reading the original paper 
+
 [SlowFast Networks for Video Recognition](https://scontent.ftlv7-1.fna.fbcdn.net/v/t39.8562-6/240838925_377595027406519_956785818926520821_n.pdf?_nc_cat=103&ccb=1-7&_nc_sid=ad8a9d&_nc_ohc=7as3khAgb1QAX9fsxcb&_nc_ht=scontent.ftlv7-1.fna&oh=00_AT9RK1GZmt8SrepxHyqL1c8iyQxtaNOW3GXccaw51aQyww&oe=62A0E274)
 
 
+<img src="https://user-images.githubusercontent.com/34807427/172118022-8e5578ab-fb67-4266-973b-6353fb9b895c.png" width="450" height="300">
 
 
 | Total params        |Trainable params   | Non-trainable  |
@@ -149,6 +154,10 @@ The model architecture is based on mobileNet SSD.
 And the highlight of this model is utilizing  tow path
 Slow and Fast, and for each path, there are tow channel one for optical flow and one for RGB channel.
 
+
+<img src="https://user-images.githubusercontent.com/34807427/172116117-a53c1512-dde7-4d6f-9fc4-57177a0dc0e7.jpg" width="850" height="700">
+
+
 - Conv3D split into two channels -  RGB frame and Optical flows as shown in the figure below.
 - Relu activation is adopted at the end of the RGB channel. 
 - Sigmoid activation is adopted at the end of the Optical flow channel.
@@ -158,7 +167,7 @@ Slow and Fast, and for each path, there are tow channel one for optical flow and
 
  <img src="https://user-images.githubusercontent.com/34807427/117047169-3c753000-ad1a-11eb-93a5-7825120596ca.png" width="550" height="400">
  
- <img src="https://user-images.githubusercontent.com/34807427/171699014-2f4c0d51-662f-42fc-b2b9-4c8b9e2b1d43.png" width="550" height="700">
+ <img src="https://user-images.githubusercontent.com/34807427/171699014-2f4c0d51-662f-42fc-b2b9-4c8b9e2b1d43.png" width="750" height="600">
 
 
 
