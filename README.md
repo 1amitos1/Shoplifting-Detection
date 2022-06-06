@@ -189,8 +189,6 @@ Compared to the SlowFast model we got the following results 76%
 
 ## Input-Output
 ![SL_event_record_1__ (1)](https://user-images.githubusercontent.com/34807427/172144654-730d19a4-8f04-4a7c-940a-dacf8586973c.gif)
-
-
 ![SL_event_record_1__](https://user-images.githubusercontent.com/34807427/172144668-d7d6d467-000c-48de-9d80-2ea3e43d342f.gif)
 ![SL_event_record_4__](https://user-images.githubusercontent.com/34807427/172144677-34f3038a-e4d8-4006-9e1b-ca7f3cd38d33.gif)
 ![SL_event_record_5__](https://user-images.githubusercontent.com/34807427/172144680-7c02115b-b0c9-4607-b3e8-702618adccd1.gif)
@@ -205,6 +203,7 @@ Compared to the SlowFast model we got the following results 76%
 
 
 https://user-images.githubusercontent.com/34807427/171149238-3cabeffb-1087-4748-b7ca-1927cd4cf6f8.mp4
+
 https://user-images.githubusercontent.com/34807427/171149909-50489465-6fb0-4e61-ad56-927233318259.mp4
 
 
