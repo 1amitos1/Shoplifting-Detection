@@ -88,9 +88,6 @@ crime lapse activities such as:
 - Concealing an item in clothes.
 - Concealing an item in a bag.
 
-**When one of these actions will be detected by our AI model, we will provide the store owner with an
-immediate alert**.
-
 
 ## Data 
 ---
@@ -106,10 +103,9 @@ Scenarios tested:
 All the cases of theft were examined in a variety of shooting angles, and by rotation of actors and clothing.
 
 we collect 4000 video clips after the filtering process.
-A link to the dataset sample is provided for the entire Dataset, send email to amitos684@gmail.com 
+A link to the dataset sample is provided, for the entire Dataset
 
-
- <img src="https://user-images.githubusercontent.com/34807427/117050368-f15d1c00-ad1d-11eb-85eb-d21343f74e55.png" width="300" height="300">
+send email to amitos684@gmail.com 
 
 
 ## Model architecture
@@ -167,8 +163,9 @@ Common models in the field of HAR
 
 ## Model training && Evaluation
 
-![צילום מסך 2022-06-04 121433](https://user-images.githubusercontent.com/34807427/171992905-bed95bdc-204f-40ef-9df2-825e8288b82e.png)
-Examination of the model on our dataset we received an accuracy of 85.77%
+<img src="https://user-images.githubusercontent.com/34807427/171992905-bed95bdc-204f-40ef-9df2-825e8288b82e.png" width="700" height="200">
+ Achieved 87% in F1-score
+Examination of the model on our dataset achieved 85.77% in F1-score 
 Compared to the SlowFast model we got the following results 76%
 ![ee](https://user-images.githubusercontent.com/34807427/171993248-347f44dd-44fb-4402-8b02-30a527afd2c1.png)
 
