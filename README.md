@@ -212,30 +212,9 @@ https://user-images.githubusercontent.com/34807427/171149909-50489465-6fb0-4e61-
 - Yolo_v3 (https://github.com/qqwweee/keras-yolo3)
 - DeepSort (https://github.com/nwojke/deep_sort)
 - RWF (https://github.com/mchengny/RWF2000-Video-Database-for-Violence-Detection/blob/master/README.md)
+- SlowFast Networks for Video Recognition [SlowFast Networks for Video Recognition](https://scontent.ftlv7-1.fna.fbcdn.net/v/t39.8562-6/240838925_377595027406519_956785818926520821_n.pdf?_nc_cat=103&ccb=1-7&_nc_sid=ad8a9d&_nc_ohc=7as3khAgb1QAX9fsxcb&_nc_ht=scontent.ftlv7-1.fna&oh=00_AT9RK1GZmt8SrepxHyqL1c8iyQxtaNOW3GXccaw51aQyww&oe=62A0E274)
+- Suspicious Behavior Detection on Shoplifting Cases for Crime Prevention by Using 3D Convolutional Neural Networks https://arxiv.org/abs/2005.02142
+- An Automatic Shoplifting Detection from Surveillance Videos https://ojs.aaai.org/index.php/AAAI/article/view/7169
+- Action Transformer: A Self-Attention Model for Short-Time Human Action Recognition https://arxiv.org/abs/2107.00606
 
-
-```
-@article{RWF-2000,
-  author = {Ming Cheng, Kunjing Cai, and Ming Li},
-  title={RWF-2000: An Open Large Scale Video Database for Violence Detection},
-  year={2019}
-}
-```
-
-
-```
-@article{DeepSort,
-  author = { B. A. &. P. D. Wojke},
-  title={Simple online and realtime tracking with a deep association metric},
-  year={2017}
-}
-```
-
-```
-@article{YOLOv3,
-  author = {Joseph Redmon },
-  title={YOLOv3: An Incremental Improvement},
-  year={2018}
-}
-```
 
