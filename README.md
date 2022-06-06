@@ -163,18 +163,27 @@ Common models in the field of HAR
 
 ## Model training && Evaluation
 
+The model was trained in the AWS-SageMaker  environment, on instance of ec2 p3.2xlarge 
+and for machine learning implementation TensorFlow ,Keras Python,OpenCV.
+
+
+We try the Adam optimization algorithm with the common value for parameters beta 1 beta 2, epsilon as show in the table
+
+
+![T2](https://user-images.githubusercontent.com/34807427/172130260-fa891d49-f519-4042-a173-8716777ba4eb.png)
+
+
+
+
 <img src="https://user-images.githubusercontent.com/34807427/171992905-bed95bdc-204f-40ef-9df2-825e8288b82e.png" width="700" height="200">
+
+
  Achieved 87% in F1-score
 Examination of the model on our dataset achieved 85.77% in F1-score 
 Compared to the SlowFast model we got the following results 76%
 ![ee](https://user-images.githubusercontent.com/34807427/171993248-347f44dd-44fb-4402-8b02-30a527afd2c1.png)
 
 
-For training AI and GPU computing power we use:AWS-SageMaker.
-
-For building AI model, we use the following platform for machine learning implementation TensorFlow , Keras.
-
-For deployment and model testing we use Python and  OpenCV.
 
 
 
