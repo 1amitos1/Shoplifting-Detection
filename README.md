@@ -16,7 +16,7 @@ SL -Shoplifting detection Provides real-time alerts for the SMB market retailers
 * [Model architecture](#Model-architecture)
 * [Model training && Evaluation](#Model-training-&&-Evaluation)
 * [System overview](#System-overview)
-* [ADS PIPELINE Demo](#ADS-PIPELINE-Demo)
+* [SL PIPELINE Demo](#ADS-PIPELINE-Demo)
 * [Input-Output examples](#Input-Output-examples)
 * [Setup](#setup)
 * [Reference](#Reference)
