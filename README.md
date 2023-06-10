@@ -3,7 +3,7 @@
 #### Project creators
 - Amit Hayun [amitos684@gmail.com](amitos684@gmail.com)
 - Amit Hayun [Linkedin](https://www.linkedin.com/in/amithayun82797614a/)
--  [silentvision]https://silentvision.org/
+-  [Silentvision].(silentvision.org)
 
 
 
