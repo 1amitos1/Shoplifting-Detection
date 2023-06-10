@@ -1,9 +1,9 @@
 # Shoplifting-Detection
 ---
 #### Project creators
-- Amit Hayun [amitos684@gmail.com](amitos684@gmail.com)
-- Amit Hayun [Linkedin](https://www.linkedin.com/in/amithayun82797614a/)
--  [Silentvision].(silentvision.org)
+-  Amit Hayun [Amit@silentvision.org](Amit@silentvision.org)
+-  Amit Hayun [Linkedin](https://www.linkedin.com/in/amithayun82797614a/)
+-  [Silentvision](silentvision.org)
 
 
 
@@ -106,7 +106,8 @@ All the cases of theft were examined in a variety of shooting angles, and by rot
 we collect 4000 video clips after the filtering process.
 A link to the dataset sample is provided, for the entire Dataset
 
-send email to amitos684@gmail.com 
+send email to info@silentvision.org
+
 
 
 ## Model architecture
